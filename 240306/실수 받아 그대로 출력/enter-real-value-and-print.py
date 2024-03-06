@@ -1,2 +1,2 @@
-a = input()
-print(f"{float(a):.f}")
+a = float(input())
+print(f"{a:.2f}")
