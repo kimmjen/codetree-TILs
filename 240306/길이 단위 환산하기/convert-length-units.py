@@ -1,3 +1,3 @@
 ft = 30.48
 a = float(input())
-print(f"{a:.1f}")
+print(f"{a*ft:.1f}")
