@@ -1,2 +1,2 @@
 a = input()
-print(f"{a:.f}")
+print(f"{int(a):.f}")
