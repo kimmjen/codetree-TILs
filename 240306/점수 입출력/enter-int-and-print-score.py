@@ -1,2 +1,2 @@
-a = 143
+a = input()
 print(f"Your score is {a} point.")
