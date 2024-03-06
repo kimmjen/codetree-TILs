@@ -1,2 +1,2 @@
 a = input()
-print(f"{int(a):.f}")
+print(f"{float(a):.f}")
