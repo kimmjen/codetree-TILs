@@ -1,3 +1,3 @@
 a = float(input())
-
-print(f"{a:.2f  + 1.5}")
+a = a + 1.5
+print(f"{a:.2f}")
