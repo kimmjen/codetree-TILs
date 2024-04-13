@@ -1,6 +1,6 @@
 a = input()
-b = input()
-c = input()
+b = float(input())
+c = float(input())
 print(a)
 print(b:.2f)
 print(c:.2f)
