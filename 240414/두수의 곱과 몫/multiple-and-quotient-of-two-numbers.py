@@ -1,7 +1,7 @@
-a = input()
-arr = a.split()
+a, b = map(int, input().split())
 
-b = int(arr[0])
-c = int(arr[1])
-print(f"{b} * {c} = {b * c}")
-print(f"{b} / {c} = {b / c}")
+product = a * b
+division = a // b
+
+print(f"{a} * {b} = {product}")
+print(f"{a} / {b} = {division}")
