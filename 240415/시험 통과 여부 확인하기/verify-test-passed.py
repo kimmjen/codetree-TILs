@@ -1,6 +1,7 @@
 score = int(input())
 
 if score >= 80:
-    print(pass)
+    print('pass')
 else:
-    print(f"{80 - score} more score")
+    need = 80 - score
+    print(f"{need} more score")
