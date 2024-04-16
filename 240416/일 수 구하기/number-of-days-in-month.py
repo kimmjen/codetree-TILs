@@ -8,4 +8,7 @@ if a % 2 == 0:
     else:
         print(30)
 else:
-    print(31)
+    if a == 9:
+        print(28)
+    else:
+        print(31)
