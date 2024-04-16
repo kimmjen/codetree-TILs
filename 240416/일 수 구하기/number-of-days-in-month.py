@@ -9,6 +9,6 @@ if a % 2 == 0:
         print(30)
 else:
     if a == 9:
-        print(28)
+        print(30)
     else:
         print(31)
