@@ -1,0 +1,11 @@
+a = int(input())
+b, c, d, e = map(int, input().split())
+
+c1 = int(a > b)
+c2 = int(a > c)
+c3 = int(a > d)
+c4 = int(a > e)
+print(c1)
+print(c2)
+print(c3)
+print(c4)
