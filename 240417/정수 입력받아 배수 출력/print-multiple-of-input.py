@@ -1,3 +1,3 @@
 a = int(input())
-for i in range(a, a * a, 7):
+for i in range(a, a *6, a):
     print(i, end=' ')
