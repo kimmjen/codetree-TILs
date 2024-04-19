@@ -10,4 +10,4 @@ while number <= b:
         number *= 2
 
     if number > b:
-        berak
+        break
