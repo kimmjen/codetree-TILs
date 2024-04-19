@@ -9,4 +9,4 @@ for _ in range(10):
     if num % 5 == 0:
         m_5 += 1
 
-print(m3, m_5)
+print(m_3, m_5)
