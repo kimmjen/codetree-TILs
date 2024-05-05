@@ -1,14 +1,13 @@
-def gcd(a, b):
-    while b != 0:
-        a, b = b, a % b
-    return a
-
-def has_common_factor(a, b):
-    gcd_result = gcd(a, b)
-    return 1920 % gcd_result == 0 and 2880 % gcd_result == 0
-
-# 입력 받기
-a, b = map(int, input().split())
-
-# 결과 출력
-print(1 if has_common_factor(a, b) else 0)
+a,b = map(int,input().split())
+arr = []
+for i in range(2, 1920):
+    if 1920 % i == 0 and 2880 % i ==0:
+        arr.append(i)
+sati = False
+for j in range(len(arr)):
+    if arr[j] >=a and arr[j] <=b:
+        sati = True
+if sati == True:
+    print(1)
+else:
+    print(0)
