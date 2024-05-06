@@ -1,9 +1,16 @@
-# 정수 n 입력
+# 변수 선언 
 n = int(input())
 
-# 패턴 출력
-for i in range(1, n + 1):
-    if i == 1:  # 첫 번째 줄 출력
-        print("* " * n)
+for i in range(n):
+# i가 첫째 줄인 경우 모두 * 넣어줌
+    if i == 0:
+        for _ in range(n):
+            print("*", end = " ")
     else:
-        print("  " * (i - 1) + "* " * (n - (i - 1)))
+# 아닌 경우 j 규칙도 확인 
+        for j in range(n):
+            if j % 2 == 1 and j >= i:
+                print("*", end = " ")
+            else:
+                print(" ", end = " ")
+    print()
